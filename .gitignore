@@ -1,0 +1,9 @@
+# Build output
+/examples/task-management-api/build/
+/examples/task-management-api/.gradle/
+
+# OS / editor
+.DS_Store
+.idea/
+*.iml
+.env

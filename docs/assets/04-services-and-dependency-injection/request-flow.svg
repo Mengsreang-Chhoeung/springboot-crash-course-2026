@@ -1,0 +1,20 @@
+<svg viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="150" fill="#ffffff"/>
+  <rect x="10" y="40" width="130" height="60" rx="8" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="75" y="66" text-anchor="middle" font-size="13" fill="#333">HTTP request</text>
+  <text x="75" y="84" text-anchor="middle" font-size="10" fill="#666">curl / browser</text>
+  <rect x="200" y="40" width="130" height="60" rx="8" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="265" y="66" text-anchor="middle" font-size="13" fill="#333">TaskController</text>
+  <text x="265" y="84" text-anchor="middle" font-size="10" fill="#666">routes, status codes</text>
+  <rect x="390" y="40" width="130" height="60" rx="8" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="455" y="66" text-anchor="middle" font-size="13" fill="#333">TaskService</text>
+  <text x="455" y="84" text-anchor="middle" font-size="10" fill="#666">task rules</text>
+  <rect x="580" y="40" width="110" height="60" rx="8" fill="none" stroke="#888" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="635" y="66" text-anchor="middle" font-size="13" fill="#333">data</text>
+  <text x="635" y="84" text-anchor="middle" font-size="10" fill="#666">in memory (Part 6: DB)</text>
+  <line x1="140" y1="70" x2="195" y2="70" stroke="#333" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="330" y1="70" x2="385" y2="70" stroke="#333" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="520" y1="70" x2="575" y2="70" stroke="#333" stroke-width="2" marker-end="url(#a4)"/>
+  <text x="350" y="130" text-anchor="middle" font-size="10" fill="#666">Spring injects the TaskService into the controller's constructor</text>
+  <defs><marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#333"/></marker></defs>
+</svg>
