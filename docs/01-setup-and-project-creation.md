@@ -77,12 +77,26 @@ Restart your terminal, then list and install a JDK 25 build:
 
 ```bash
 sdk list java
-sdk install java 25-tem
+sdk install java 25-librca
 java -version
 ```
 
-> **Note:** `25-tem` is the Eclipse Temurin build; any JDK 25 works. On Windows,
-> use WSL for SDKMAN!, or install a JDK 25 from [adoptium.net](https://adoptium.net).
+> **Note:** `25-librca` is the BellSoft Liberica build; any JDK 25 works (for
+> example `25-tem` for Eclipse Temurin). On Windows, use WSL for SDKMAN!, or install a JDK 25 from [bell-sw.com](https://bell-sw.com/pages/downloads/).
+
+To pin the Java version to the project, run this inside the project folder once
+it exists (after [section 5](#5-creating-the-project)):
+
+```bash
+sdk env init
+sdk env
+```
+
+`sdk env init` writes a **`.sdkmanrc`** file (for example `java=25-librca`), and
+`sdk env` switches the terminal to that JDK. Anyone who clones the project can run
+`sdk env install` to get the same version. To switch automatically whenever you
+`cd` into the folder, set `sdkman_auto_env=true` in `~/.sdkman/etc/config`. The
+reference app in `examples/task-management-api/` includes this file.
 
 You'll also need **Docker** from [Part 6](06-database-integration.md) onward, for
 the database.
@@ -170,7 +184,7 @@ Stop it with `Ctrl+C` and re-run after code changes for now.
 
 - **Running with the wrong Java.** `release version 25 not supported` or *Cannot
   find a Java installation matching languageVersion=25* means no JDK 25 is active in
-  this terminal. Check `java -version` and `sdk use java 25-tem`.
+  this terminal. Check `java -version` and `sdk use java 25-librca`.
 - **Editing the application class to add routes.** It only bootstraps the app —
   routes belong in controllers ([Part 3](03-controllers-and-routing.md)), never here.
 - **Port already in use.** If `8080` is taken, stop that process or start on another
