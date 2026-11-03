@@ -49,9 +49,6 @@ custom queries).
 springboot-crash-course-2026/
 ├── CLAUDE.md
 ├── README.md                              # intro + table of contents
-├── docs/
-│   ├── 01-setup-and-project-creation.md … 09-architecture-review.md
-│   └── assets/0N-slug/*.svg
 └── examples/
     └── task-management-api/               # reference implementation (Part 9 end state)
 ```
@@ -59,18 +56,19 @@ springboot-crash-course-2026/
 `examples/task-management-api/` is the **runnable reference implementation** — the
 one project in its Part 9 end state only. Two rules follow:
 
-- **The docs and the app must not drift.** A change in one lands in the other in the
-  same pass; the snippets in a part must be copy-pasteable into the reference app.
+- **The written course and the app must not drift.** The nine parts now live at
+  https://mengsreang-chhoeung.work/tutorials/springboot-crash-course (not in this repo);
+  a change to the app must be mirrored there, and the snippets in a part must stay
+  copy-pasteable into the reference app.
 - **It is the crash course's app.** It stays standalone.
 
-## Content conventions
+## Content conventions (for the written parts, hosted on the site)
 
 Same as the NestJS crash course: `# Part N: Title` → `## Table of Contents` → `---` →
 numbered `## N. Subtopic` sections; tutorial prose (no video-script phrasing), bold
 key terms, `> **Note:**` asides; a short **Beginner Pitfalls** section (2–3 items),
 an **Official docs** link list, and Previous/Next links at the end (the last part
-links back to the README). Diagrams are simple viewBox SVGs under `docs/assets/0N-slug/`,
-only where they clarify a flow.
+links back to the README). Diagrams are simple viewBox SVGs, only where they clarify a flow.
 
 ## What has been verified
 

@@ -11,7 +11,7 @@ first; use this to compare against when something doesn't work.
 
 ## Running it
 
-You need JDK 25 (see [Part 1](../../docs/01-setup-and-project-creation.md)) and Docker.
+You need JDK 25 (see [Part 1](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)) and Docker.
 
 ```bash
 docker compose up -d

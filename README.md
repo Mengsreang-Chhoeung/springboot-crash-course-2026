@@ -12,15 +12,17 @@ backend experience assumed.
 
 ## Table of Contents
 
-1. [Setup & Project Creation](docs/01-setup-and-project-creation.md)
-2. [Packages & Beans](docs/02-packages-and-beans.md)
-3. [Controllers & Routing](docs/03-controllers-and-routing.md)
-4. [Services & Dependency Injection](docs/04-services-and-dependency-injection.md)
-5. [DTOs & Validation](docs/05-dto-and-validation.md)
-6. [Database Integration (Spring Data JPA + PostgreSQL)](docs/06-database-integration.md)
-7. [Error Handling](docs/07-error-handling.md)
-8. [API Documentation with Swagger](docs/08-api-documentation-swagger.md)
-9. [Architecture Review](docs/09-architecture-review.md)
+The written course lives at [https://mengsreang-chhoeung.work/tutorials/springboot-crash-course](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course). The nine parts:
+
+1. [Setup & Project Creation](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+2. [Packages & Beans](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+3. [Controllers & Routing](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+4. [Services & Dependency Injection](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+5. [DTOs & Validation](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+6. [Database Integration (Spring Data JPA + PostgreSQL)](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+7. [Error Handling](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+8. [API Documentation with Swagger](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
+9. [Architecture Review](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course)
 
 ## What you'll build
 
