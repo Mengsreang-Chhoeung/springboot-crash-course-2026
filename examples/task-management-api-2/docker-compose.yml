@@ -1,0 +1,17 @@
+name: springboot-task-api
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: springboot-task-api-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: task_api
+    ports:
+      - '5424:5432'
+    volumes:
+      - task-api-db-data:/var/lib/postgresql/data
+
+volumes:
+  task-api-db-data:
