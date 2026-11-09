@@ -10,6 +10,13 @@ It's for developers who are brand new to Spring Boot, or who've only skimmed
 the [official docs](https://docs.spring.io/spring-boot/). No prior production
 backend experience assumed.
 
+## Watch the video
+
+📺 [Watch the full crash course on YouTube](https://youtu.be/3Vgi0Urohik)
+
+Follow along with the video and use this repo as your reference — every
+part below matches a section of the build.
+
 ## Table of Contents
 
 The written course lives at [https://mengsreang-chhoeung.work/tutorials/springboot-crash-course](https://mengsreang-chhoeung.work/tutorials/springboot-crash-course). The nine parts:
