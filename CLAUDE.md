@@ -8,8 +8,7 @@ Management REST API, built up part by part from Spring Initializr to a
 documented, validated, database-backed API with Swagger UI. It is not a
 set of isolated concept demos — later parts build directly on the project
 created in Part 1. This repo is fully standalone and must not reference or
-depend on anything outside itself. It is the Spring Boot sibling of
-`nestjs-crash-course-2026` and deliberately mirrors its structure.
+depend on anything outside itself. It follows a fixed structure across all parts.
 
 The 9 parts, in build order:
 
@@ -64,7 +63,7 @@ one project in its Part 9 end state only. Two rules follow:
 
 ## Content conventions (for the written parts, hosted on the site)
 
-Same as the NestJS crash course: `# Part N: Title` → `## Table of Contents` → `---` →
+Every part uses: `# Part N: Title` → `## Table of Contents` → `---` →
 numbered `## N. Subtopic` sections; tutorial prose (no video-script phrasing), bold
 key terms, `> **Note:**` asides; a short **Beginner Pitfalls** section (2–3 items),
 an **Official docs** link list, and Previous/Next links at the end (the last part
